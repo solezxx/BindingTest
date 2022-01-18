@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Name="mygrid">
-        <TextBox x:Name="textBox"  HorizontalAlignment="Left" Height="23" Margin="182,85,0,0" TextWrapping="Wrap" Text="{Binding mytext, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="192,124,0,0" TextWrapping="Wrap" Text="{Binding mytext}" VerticalAlignment="Top" Background="Aquamarine"/>
+        <TextBox x:Name="textBox"  HorizontalAlignment="Left" Height="23" Margin="182,85,0,0" TextWrapping="Wrap" Text="{Binding Mytext, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="192,124,0,0" TextWrapping="Wrap" Text="{Binding Mytext}" VerticalAlignment="Top" Background="Aquamarine"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="192,158,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="365,85,0,0" TextWrapping="Wrap" Text="失焦测试textbox" VerticalAlignment="Top" Width="120"/>
         
